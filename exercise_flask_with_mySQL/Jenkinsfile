@@ -16,7 +16,7 @@ pipeline {
         stage('Clone') {
             steps {
                 echo "Cloning repository..."
-                sh "git clone https://github.com/OrelNeto-DO/devops-course.git"
+                sh "git clone https://https://github.com/OrelNeto-DO/docker"
             }
         }
 
