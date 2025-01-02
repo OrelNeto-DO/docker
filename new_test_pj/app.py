@@ -2,6 +2,10 @@ from flask import Flask, render_template
 from sqlalchemy import create_engine, text
 import os
 import random
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 app = Flask(__name__)
 
